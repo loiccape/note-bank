@@ -1,37 +1,66 @@
-📋 Application Web Bancaire
-📝 Description du projet
-Cette application web bancaire est conçue pour gérer les finances personnelles de manière intuitive et accessible. Elle permet de consulter les transactions, de suivre les budgets et économies, ainsi que de gérer les factures récurrentes. Ce projet est réalisé dans le cadre de mon portfolio pour démontrer mes compétences en développement web front-end avec Vue.js.
+# Contenu du fichier README
+readme_content = """
+# 📋 Application Web Bancaire  
 
-🚀 Fonctionnalités principales
-Vue d'ensemble : Accédez à toutes les données financières sur une page récapitulative.
-Transactions :
-Consultez toutes les transactions avec une pagination par tranche de 10.
-Recherchez, triez et filtrez les transactions selon vos besoins.
-Budgets et économies :
-Créez, lisez, mettez à jour et supprimez des budgets et des pots d’épargne.
-Visualisez les trois dernières transactions pour chaque catégorie de budget.
-Suivez votre progression vers chaque objectif d’épargne.
-Ajoutez ou retirez de l'argent des pots.
-Factures récurrentes :
-Consultez les factures récurrentes et leur statut pour le mois en cours.
-Recherchez et triez les factures récurrentes.
-Validation des formulaires : Recevez des messages de validation si des champs obligatoires ne sont pas remplis.
-Accessibilité : Naviguez dans toute l'application et effectuez des actions uniquement avec le clavier.
-Interface responsive : Bénéficiez d'une disposition optimale en fonction de la taille de l'écran.
-États d'interaction : Profitez d'états visuels pour les éléments interactifs (survol, focus, etc.).
-🛠️ Technologies utilisées
-Framework Front-End : Vue.js
-Framework CSS : Tailwind CSS - pour sa flexibilité et sa compatibilité avec Vue.js.
-Collection de composants : ShadCN - pour des composants élégants, accessibles et parfaitement intégrés avec Tailwind CSS.
-📐 Structure et organisation
-Le projet est organisé autour des bonnes pratiques modernes :
+## 📝 Description du projet  
+L'application web bancaire est conçue pour offrir une gestion intuitive et accessible des finances personnelles.  
+Elle permet de :  
+- Consulter les transactions.  
+- Suivre les budgets et économies.  
+- Gérer les factures récurrentes.  
 
-Architecture modulaire et réactive.
-Utilisation de Tailwind CSS pour une personnalisation rapide et cohérente du design.
-Composants réutilisables avec ShadCN pour offrir une expérience utilisateur haut de gamme.
-🎯 Objectifs pédagogiques
-Ce projet vise à :
+Ce projet fait partie de mon portfolio pour mettre en avant mes compétences en **développement front-end avec Vue.js**.  
 
-Démontrer ma maîtrise de Vue.js et Tailwind CSS.
-Mettre en avant mes compétences en conception et développement d'interfaces utilisateur complexes.
-Montrer ma capacité à répondre aux besoins des utilisateurs en termes d'accessibilité et d'expérience utilisateur.
+---
+
+## 🚀 Fonctionnalités principales  
+
+### 🖥️ Vue d'ensemble  
+- Affichage de toutes les données financières sur une page récapitulative.  
+
+### 💳 Transactions  
+- Consultation des transactions avec une pagination par tranche de 10.  
+- Recherche, tri et filtrage des transactions.  
+
+### 💰 Budgets et économies  
+- Création, lecture, mise à jour et suppression (CRUD) des budgets et pots d’épargne.  
+- Visualisation des trois dernières transactions pour chaque catégorie de budget.  
+- Suivi de la progression vers chaque objectif d’épargne.  
+- Ajout et retrait d'argent des pots.  
+
+### 📑 Factures récurrentes  
+- Consultation des factures récurrentes et de leur statut pour le mois en cours.  
+- Recherche et tri des factures récurrentes.  
+
+### ✅ Validation et accessibilité  
+- Messages de validation pour les formulaires incomplets.  
+- Navigation et actions entièrement réalisables au clavier.  
+
+### 📱 Interface utilisateur  
+- Mise en page responsive optimisée pour tout type d’écran.  
+- États visuels pour les interactions (hover, focus, etc.).  
+
+---
+
+## 🛠️ Technologies utilisées  
+
+- **Framework Front-End** : [Vue.js](https://vuejs.org/)  
+- **Framework CSS** : [Tailwind CSS](https://tailwindcss.com/)  
+- **Collection de composants** : [ShadCN](https://www.shadcn-vue.com/)  
+
+---
+
+## 📐 Structure et organisation  
+
+- **Architecture modulaire** : Code organisé pour une réutilisabilité maximale.  
+- **Design personnalisé** : Utilisation de Tailwind CSS pour un style cohérent et rapide à implémenter.  
+- **Composants accessibles** : ShadCN pour une expérience utilisateur élégante et fluide.  
+
+---
+
+## 🎯 Objectifs pédagogiques  
+
+1. Mettre en valeur ma maîtrise des technologies modernes comme Vue.js et Tailwind CSS.  
+2. Illustrer ma capacité à concevoir des interfaces utilisateur complexes et fonctionnelles.  
+3. Démontrer une attention particulière à l'accessibilité et à l'expérience utilisateur.  
+
