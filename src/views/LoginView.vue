@@ -65,6 +65,13 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
 
+//imports router
+import { useRouter } from 'vue-router'
+
+
+const router = useRouter();
+
+
 const formSchema = toTypedSchema(z.object({
     email: z.string().min(2).max(50).email("The email must be valid"),
     password: z.string()
@@ -82,5 +89,6 @@ const form = useForm({
 
 const onSubmit = form.handleSubmit((values) => {
     console.log('Form submitted!', values)
+    router.push("/home")
 })
 </script>
