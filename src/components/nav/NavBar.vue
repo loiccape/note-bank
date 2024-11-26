@@ -1,8 +1,11 @@
 <template>
-    <nav class="bg-grey900 fixed bottom-0 w-full h-12 md:h-20">
-        <img src="../../assets/images/logo-large.svg" alt="logo finance" class="hidden lg:block" />
+    <nav
+        class="bg-grey900 fixed bottom-0 w-full h-12 lg:fixed lg:top-0 lg:bottom-auto lg:h-screen  lg:left-0 lg:flex lg:flex-col lg:w-1/6 lg:rounded-r-lg">
+        <img src="../../assets/images/logo-large.svg" alt="logo finance"
+            class="hidden lg:block lg:w-32 lg:mt-12 lg:ml-12" />
 
-        <ul class="w-full h-full flex justify-evenly items-center text-grey300">
+        <ul
+            class="w-full h-full flex justify-evenly items-center text-grey300 lg:flex lg:flex-col lg:justify-normal lg:mt-16">
             <!-- Boucle sur les icônes pour les rendre dynamiques si besoin -->
             <NavIcon :icon="DocumentTextIcon" title="Overview" :index="1" :isActive="activeIndex === 1"
                 @click="handleClick(1)" />
