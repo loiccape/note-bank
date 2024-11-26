@@ -1,7 +1,9 @@
 <template>
-    <p>home</p>
-    <NavBar />
+    <section>
+        <NavBar />
+    </section>
 </template>
-<script lang="ts">
-import { NavBar } from '@/components/nav/NavBar.vue'
+<script setup lang="ts">
+import NavBar from '@/components/nav/NavBar.vue';
+
 </script>
