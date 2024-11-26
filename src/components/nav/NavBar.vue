@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="bg-grey900 fixed bottom-0 w-full min-h-12 lg:fixed lg:top-0 lg:bottom-auto lg:h-screen  lg:left-0 lg:flex lg:flex-col lg:min-w-56 lg:rounded-r-lg">
+        class="bg-grey900 fixed bottom-0 w-full min-h-12  lg:top-0 lg:bottom-auto lg:h-screen  lg:left-0 lg:flex lg:flex-col lg:max-w-56 lg:rounded-r-lg lg:relative">
         <img src="../../assets/images/logo-large.svg" alt="logo finance"
             class="hidden lg:block lg:w-32 lg:mt-12 lg:ml-12" />
 
